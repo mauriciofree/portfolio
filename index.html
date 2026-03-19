@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portfólio</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  </head>
+  <body>
+
+    <section id="home">
+      <nav class="navbar">
+        <h3 class="logo">Maurício Roberto Moller</h3>
+        <button id="hamburger">≡</button>
+        <ul class="menu" id="menu">
+          <li><a href="#sobre" class="menu-card">Sobre mim</a></li>
+          <li><a href="#habilidades" class="menu-card">Habilidades</a></li>
+          <li><a href="#projetos" class="menu-card">Projetos</a></li>
+          <li><a href="#contato" class="menu-card">Contato</a></li>
+        </ul>
+      </nav>
+
+      <div class="intro-container">
+        <p class="intro-texto">Inovação e Soluções</p>  
+        <p class="intro-texto">Tecnológicas de Ponta</p>  
+      </div>
+    </section>
+
+
+    <section id="sobre">
+        <div class="sobre-container">
+          <h3 class="sobre-titulo">Sobre mim</h3>
+          <img src="./assets/images/nf-e.png" class="sobre-imagem-direita" >
+          <p class="sobre-texto">
+            Sou um profissional da área de desenvolvimento com experiência em tecnologias como HTML, 
+            CSS, JavaScript, PHP, C#, Delphi/Pascal, Node.js e Laravel. 
+            Tenho familiaridade com a construção de interfaces responsivas, desenvolvimento de aplicações 
+            web e integração entre sistemas, sempre buscando escrever código limpo, organizado e eficiente.
+          </p>
+          <p class="sobre-texto">
+            Ao longo da minha trajetória, venho aprimorando minhas habilidades técnicas por meio de 
+            estudos contínuos e projetos práticos, o que me permite lidar com diferentes desafios e encontrar 
+            soluções funcionais e bem estruturadas.
+          </p>
+          <img src="./assets/images/software.jpg" class="sobre-imagem-esquerda" >
+          <p class="sobre-texto">
+           No aspecto comportamental, destaco minha capacidade de aprendizado rápido, organização e 
+           comprometimento com prazos e resultados. Tenho facilidade em trabalhar em equipe, me comunicar 
+           de forma clara e colaborar com outros profissionais para alcançar objetivos em comum.
+          </p>
+          <p class="sobre-texto">
+           Além disso, sou proativo na busca por melhorias, gosto de entender o problema antes de propor 
+           soluções e estou sempre aberto a feedbacks, visando evolução constante tanto profissional quanto pessoal.
+          </p>
+          <div class="sobre-mobile">
+            <img src="./assets/images/nf-e.png" alt="" class="sobre-imagem-mobile">
+            <img src="./assets/images/software.jpg" alt="" class="sobre-imagem-mobile">
+          </div>
+          
+          
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="habilidades-container">
+            <h3 class="habilidades-titulo">Habilidades e Tecnologias</h3>
+
+            <p class="habilidades-texto">
+                Tecnologias e ferramentas que utilizo para desolver soluções completas.
+            </p>
+            <div class="habilidades-lista">
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
+                    <h3>HTML</h3>
+                    <span class="nivel avancado">Avançado</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg">
+                    <h3>CSS</h3>
+                    <span class="nivel avancado">Avançado</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">
+                    <h3>JavaScript</h3>
+                    <span class="nivel avancado">Avançado</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg">
+                    <h3>PHP</h3>
+                    <span class="nivel avancado">Avançado</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/delphi/delphi-original.svg">
+                    <h3>Delphi/Pascal</h3>
+                    <span class="nivel intermediario">Intermediário</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg">
+                    <h3>C#</h3>
+                    <span class="nivel iniciante">Iniciante</span>
+                </div>           
+
+                <div class="habilidades-card">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg">
+                    <h3>Node.js</h3>
+                    <span class="nivel iniciante">Iniciante</span>
+                </div>
+
+                <div class="habilidades-card">
+                    <img src="./assets/images/laravel-original.svg">
+                    <h3>Laravel</h3>
+                    <span class="nivel iniciante">Iniciante</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="projetos-container">
+            <h3 class="projetos-titulo">Meus Projetos</h3>
+          
+            <div class="projetos-lista">
+
+                <div class="projeto-card">
+                    <h3>$IMPLES Web</h3>
+                    <p class="projeto-descricao">
+                        Sistema de automação comercial completo (emissão de docuemntos fiscais, estoque, controle financeiro, etc.)
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <span class="projeto-tag"><i class="devicon-php-plain"></i>PHP</span>
+                            <a href="https://www.freeline.inf.br/site/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>                
+
+                <div class="projeto-card">
+                    <h3>Rede New Vísion</h3>
+                    <p class="projeto-descricao">
+                        Sistema de bonificação de vendas multi-nível
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <span class="projeto-tag"><i class="devicon-php-plain"></i>PHP</span>
+                            <a href="https://www.freeline.inf.br/redenewvision/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3>CDL Libras</h3>
+                    <p class="projeto-descricao">
+                        Sistema de comunicação para video-chamada para linguagem de brasileira de sinais (LIBRAS)
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <span class="projeto-tag"><i class="devicon-php-plain"></i>PHP</span>
+                            <a href="https://www.freeline.inf.br/libras/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>  
+                
+                <div class="projeto-card">
+                    <h3>$IMPLES Web PRO</h3>
+                    <p class="projeto-descricao">
+                        Nova versão do $IMPLES Web com o uso de novas tecnologias
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <span class="projeto-tag"><i class="devicon-php-plain"></i>PHP</span>
+                            <span class="projeto-tag"><i class="devicon-laravel-plain"></i>Laravel</span>
+                            <a href="https://www.freeline.inf.br/site/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3>$IMPLES PDV</h3>
+                    <p class="projeto-descricao">
+                        Módulo PAF-ECF do $IMPLES Web para emissão de cupom fiscal (descontinuado)
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-delphi-plain"></i>Delphi/Pascal</span>
+                            <span class="projeto-tag"><i class="devicon-c-original"></i>C#</span>
+                            <a href="https://www.freeline.inf.br/site/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3>SIVILO</h3>
+                    <p class="projeto-descricao">
+                        Sistema de vídeo locadora (descontinuado)
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <span class="projeto-tag"><i class="devicon-php-plain"></i>PHP</span>
+                            <a href="https://www.freeline.inf.br/sivilo/" class="projeto-link" target="_blank">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projeto-card">
+                    <h3>Jogo da Velha</h3>
+                    <p class="projeto-descricao">
+                        Jogo desenvolvido durante o curso SCTEC
+                    </p>                    
+                    <div class="projeto-card-tl">
+                        <div class="projeto-tags">
+                            <span class="projeto-tag"><i class="devicon-html5-plain"></i>HTML</span>
+                            <span class="projeto-tag"><i class="devicon-css3-plain"></i>CSS</span>
+                            <span class="projeto-tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
+                            <a href="jogo_velha.html" class="projeto-link" target="_blank">Jogar</a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+   
+
+
+
+    <section id="contato">
+        <div class="contato-container">
+            <h2 class="contato-titulo">Contato</h2>
+
+            <div class="container">
+
+                <!-- Informações -->
+                <div class="info">
+
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Rua Benjamin Constant,4135 - Joinville - SC</span>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <a href="fone:+554734730001">(47) 3473-0001</a>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:mauricio@freeline.inf.br">mauricio@freeline.inf.br</a>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fab fa-facebook"></i>
+                        <a href="https://facebook.com/mauricioroberto.moller" target="_blank">facebook.com/mauricioroberto.moller</a>
+                    </div>
+
+                    <div class="info-item">
+                        <i class="fab fa-whatsapp"></i>
+                        <a href="https://wa.me/5547999235542?text=Olá,%20gostaria%20de%20falar%20com%20você" target="_blank">(47) 99923-5542</a>
+                    </div>
+                    
+
+                </div>
+
+                <!-- Mapa -->
+                <div class="mapa">
+                    <iframe 
+                        src="https://www.google.com/maps?q=Rua Benjamin Constant,4135 - Joinville - SC&output=embed">
+                    </iframe>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+      <p>© 2026 Todos os direitos reservados.</p>
+    </footer>
+
+
+     <script src="./assets/javascript.js"></script> 
+</body>
+</html>
