@@ -1,80 +1,180 @@
 # 💼 Portfólio - Maurício
 
-Este é o meu portfólio profissional desenvolvido para apresentar minhas habilidades técnicas, projetos e formas de contato.
-
 🔗 Acesse o projeto:
-👉 https://mauriciofree.github.io/portfolio/
+https://mauriciofree.github.io/portfolio/
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Visão Técnica do Projeto
 
-* HTML5
-* CSS3
-* JavaScript
-* PHP
-* C#
-* Delphi / Pascal
-* Node.js
-* Laravel
+Este portfólio foi desenvolvido como uma aplicação web estática com foco em organização de código, responsividade e boas práticas de desenvolvimento frontend. A proposta não é apenas apresentar informações, mas demonstrar na prática a aplicação de conceitos fundamentais de desenvolvimento web moderno.
 
 ---
 
-## 🎯 Objetivo
+## 🧱 Estrutura e Arquitetura
 
-Este portfólio foi desenvolvido com o objetivo de:
+O projeto segue uma estrutura simples e eficiente, baseada na separação de responsabilidades:
 
-* Apresentar minhas habilidades técnicas e comportamentais
-* Demonstrar projetos desenvolvidos
-* Facilitar o contato profissional
-* Servir como vitrine do meu trabalho como desenvolvedor
-
----
-
-## 🧩 Funcionalidades
-
-* ✅ Layout responsivo
-* ✅ Seção de tecnologias com nível de conhecimento
-* ✅ Listagem de projetos com descrição e links
-* ✅ Área de contato com:
-
-  * Endereço
-  * Mapa integrado (Google Maps)
-  * Telefone
-  * Email
-  * WhatsApp
-  * Facebook
-
----
-
-## 📁 Estrutura do Projeto
-
-```
+```bash id="u2n9x1"
 portfolio/
 │── index.html
 │── css/
-│── imagens/
 │── js/
+│── imagens/
 ```
+
+* **HTML** responsável pela estrutura semântica
+* **CSS** responsável pelo layout, responsividade e identidade visual
+* **JavaScript** utilizado para interatividade e manipulação de elementos
+
+Essa abordagem facilita manutenção, escalabilidade e reutilização de código.
+
+---
+
+## 🎨 Estilização com CSS
+
+O CSS foi desenvolvido com foco em:
+
+* Layout responsivo utilizando `flexbox` e `grid`
+* Uso de unidades relativas (`vw`, `vh`, `%`) para adaptação de tela
+* Componentização visual (cards, botões, tags)
+* Uso de pseudo-elementos (`::before`) para overlays e efeitos visuais
+* Aplicação de `hover effects` para melhorar a experiência do usuário
+
+Exemplo de overlay aplicado em imagens:
+
+```css id="x81p2a"
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+```
+
+---
+
+## ⚡ Interatividade com JavaScript
+
+O JavaScript foi utilizado de forma leve e objetiva, focando em:
+
+* Manipulação do DOM
+* Melhorias na experiência do usuário
+* Preparação para futuras integrações dinâmicas
+
+O projeto foi estruturado para permitir evolução futura para frameworks ou integração com APIs.
+
+---
+
+## 🧩 Componentização
+
+O layout foi construído utilizando componentes reutilizáveis, como:
+
+* Cards de tecnologias
+* Cards de projetos
+* Tags de tecnologias
+* Botões padronizados
+* Seção de contato estruturada
+
+Essa abordagem melhora a consistência visual e facilita manutenção.
 
 ---
 
 ## 📱 Responsividade
 
-O projeto foi desenvolvido para funcionar em:
+A responsividade foi tratada como prioridade no projeto:
 
-* 💻 Desktop
-* 📱 Mobile
-* 📲 Tablets
+* Uso de `media queries` para adaptação em diferentes telas
+* Layout fluido com `grid` e `flexbox`
+* Ajuste de elementos para mobile (reorganização de conteúdo)
+
+Exemplo:
+
+```css id="k29d8f"
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+```
 
 ---
 
-## 📌 Melhorias Futuras
+## 🔗 Integrações Utilizadas
 
-* Adicionar animações (scroll e transições)
-* Implementar formulário de contato funcional
-* Integração com backend/API
-* Melhorar acessibilidade (A11Y)
+Mesmo sendo um projeto estático, foram utilizadas integrações importantes:
+
+* Google Maps (embed via iframe)
+* Link direto para WhatsApp (`wa.me`)
+* Links externos para redes sociais
+
+Essas integrações simulam cenários reais de aplicações web.
+
+---
+
+## 🧠 Tecnologias Aplicadas na Prática
+
+Este projeto demonstra experiência prática nas seguintes tecnologias:
+
+### HTML5
+
+* Estrutura semântica
+* Organização de conteúdo
+* Boas práticas de marcação
+
+### CSS3
+
+* Flexbox e Grid
+* Responsividade
+* Animações e transições
+* Manipulação visual avançada (overlay, filtros)
+
+### JavaScript
+
+* Manipulação de elementos
+* Estrutura base para interatividade
+
+### PHP, C#, Delphi/Pascal (Experiência complementar)
+
+Embora não utilizados diretamente neste projeto frontend, fazem parte do meu stack e são aplicados em:
+
+* Desenvolvimento backend
+* Integração de sistemas
+* Aplicações corporativas
+* Sistemas relacionados à nota fiscal eletrônica (NF-e/NFC-e)
+
+### Node.js e Laravel
+
+Utilizados em projetos paralelos para:
+
+* Criação de APIs
+* Backend estruturado
+* Integração com banco de dados
+* Sistemas web completos
+
+---
+
+## ⚙️ Boas Práticas Aplicadas
+
+Durante o desenvolvimento, foram aplicadas práticas importantes:
+
+* Separação de responsabilidades
+* Código legível e organizado
+* Reutilização de componentes
+* Design responsivo
+* Estrutura escalável
+
+---
+
+## 📌 Possíveis Evoluções Técnicas
+
+O projeto foi estruturado para permitir evoluções como:
+
+* Integração com backend (API REST)
+* Implementação de framework frontend
+* Sistema de gerenciamento de conteúdo
+* Autenticação de usuários
+* Consumo de APIs externas
 
 ---
 
@@ -86,14 +186,12 @@ O projeto foi desenvolvido para funcionar em:
 
 ---
 
-## 🧠 Autor
+## 👨‍💻 Autor
 
-Desenvolvido por **Maurício**
-💻 Desenvolvedor focado em sistemas web e integração com APIs, incluindo soluções para nota fiscal eletrônica (NF-e/NFC-e).
+Desenvolvido por Maurício, com foco em desenvolvimento web e integração de sistemas, especialmente em soluções voltadas à automação e comunicação com serviços fiscais como NF-e e NFC-e.
 
 ---
 
 ## 📄 Licença
 
-Este projeto está sob a licença MIT.
-Sinta-se livre para usar como inspiração.
+Projeto sob licença MIT.
