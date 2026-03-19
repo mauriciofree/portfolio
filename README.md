@@ -1,4 +1,4 @@
-# 💼 Portfólio - Maurício
+# 💼 Portfólio - Maurício Roberto Moller
 
 🔗 Acesse o projeto:
 https://mauriciofree.github.io/portfolio/
@@ -11,7 +11,15 @@ Este portfólio foi desenvolvido como uma aplicação web estática com foco em 
 
 ---
 
-## 🧱 Estrutura e Arquitetura
+## 🔍 Detalhamento da Implementação
+
+Durante o desenvolvimento deste portfólio, foram aplicados conceitos fundamentais de arquitetura front-end, com atenção especial à organização do código e à separação de responsabilidades. A estrutura foi pensada para facilitar manutenção futura e possíveis expansões, permitindo a inclusão de novas funcionalidades sem a necessidade de grandes refatorações.
+
+O uso de HTML semântico contribui para melhor indexação por mecanismos de busca (SEO) e também melhora a acessibilidade do conteúdo. Elementos como `header`, `section` e `footer` foram utilizados para estruturar corretamente as diferentes partes do site.
+
+---
+
+## 🧱 Arquitetura
 
 O projeto segue uma estrutura simples e eficiente, baseada na separação de responsabilidades:
 
@@ -27,6 +35,14 @@ portfolio/
 * **JavaScript** utilizado para interatividade e manipulação de elementos
 
 Essa abordagem facilita manutenção, escalabilidade e reutilização de código.
+
+---
+
+## 🎨 Estratégia de Design
+
+O design do portfólio foi construído com foco em simplicidade e clareza visual. A paleta de cores utiliza tons escuros como base, o que favorece o contraste com textos claros e melhora a legibilidade. Esse tipo de abordagem também é amplamente utilizado em interfaces modernas voltadas para desenvolvedores.
+
+Foram aplicados efeitos sutis de hover, sombras e transições CSS para proporcionar uma experiência mais interativa ao usuário. Além disso, elementos como cards e botões foram estilizados de forma consistente, criando uma identidade visual uniforme em todo o projeto.
 
 ---
 
@@ -47,8 +63,6 @@ O JavaScript foi utilizado de forma leve e objetiva, focando em:
 
 * Manipulação do DOM
 * Melhorias na experiência do usuário
-* Preparação para futuras integrações dinâmicas
-
 
 ---
 
@@ -66,9 +80,11 @@ Essa abordagem melhora a consistência visual e facilita manutenção.
 
 ---
 
-## 📱 Responsividade
+## ⚙️ Responsividade e Adaptabilidade
 
-A responsividade foi tratada como prioridade no projeto:
+A responsividade foi implementada utilizando técnicas modernas como Flexbox e CSS Grid, permitindo que o layout se ajuste automaticamente a diferentes tamanhos de tela. Media queries foram utilizadas para adaptar componentes específicos em dispositivos móveis, garantindo que o conteúdo permaneça acessível e organizado.
+
+A abordagem adotada prioriza a experiência do usuário em qualquer dispositivo, evitando quebras de layout e garantindo boa usabilidade em resoluções menores.
 
 * Uso de `media queries` para adaptação em diferentes telas
 * Layout fluido com `grid` e `flexbox`
@@ -76,15 +92,24 @@ A responsividade foi tratada como prioridade no projeto:
 
 ---
 
-## 🔗 Integrações Utilizadas
+## 🧪 Organização e Escalabilidade
 
-Mesmo sendo um projeto estático, foram utilizadas integrações importantes:
+O projeto foi estruturado de forma modular, o que facilita a adição de novos componentes e seções. Cada parte do layout foi pensada como um bloco independente, permitindo reutilização e manutenção simplificada.
 
-* Google Maps (embed via iframe)
-* Link direto para WhatsApp (`wa.me`)
-* Links externos para redes sociais
+Essa organização também prepara o projeto para possíveis migrações futuras para frameworks modernos como React, Vue ou Angular, caso haja necessidade de evoluir a aplicação para uma arquitetura mais complexa.
 
-Essas integrações simulam cenários reais de aplicações web.
+---
+
+## 🔌 Integrações e Recursos Externos
+
+O portfólio utiliza alguns recursos externos para enriquecer a experiência do usuário:
+
+* Integração com Google Maps para exibição da localização
+* Links diretos para WhatsApp utilizando o protocolo `wa.me`
+* Redirecionamento para redes sociais
+* Uso de ícones via bibliotecas externas
+
+Essas integrações simulam cenários reais de aplicações comerciais, onde a comunicação com serviços externos é essencial.
 
 ---
 
@@ -118,15 +143,20 @@ Este projeto relaciona projetos ao qual já trabalhei ao longo da carreira, bem 
 
 ---
 
-## ⚙️ Boas Práticas Aplicadas
+## 📊 Boas Práticas de Desenvolvimento
 
-Durante o desenvolvimento, foram aplicadas práticas importantes:
+Durante o desenvolvimento, foram seguidas boas práticas amplamente recomendadas na área de desenvolvimento web:
 
-* Separação de responsabilidades
-* Código legível e organizado
-* Reutilização de componentes
+* Código limpo, legível e organizado
+* Nomeação clara de classes e elementos
+* Evitar repetição de código (DRY - Don't Repeat Yourself)
+* Separação entre estrutura, estilo e comportamento
+* Uso de padrões consistentes de layout
+* Organização lógica dos arquivos
 * Design responsivo
 * Estrutura escalável
+
+Essas práticas contribuem para um código mais sustentável e fácil de dar manutenção ao longo do tempo.
 
 ---
 
