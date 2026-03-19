@@ -44,10 +44,6 @@ O design do portfólio foi construído com foco em simplicidade e clareza visual
 
 Foram aplicados efeitos sutis de hover, sombras e transições CSS para proporcionar uma experiência mais interativa ao usuário. Além disso, elementos como cards e botões foram estilizados de forma consistente, criando uma identidade visual uniforme em todo o projeto.
 
----
-
-## 🎨 Estilização com CSS
-
 O CSS foi desenvolvido com foco em:
 
 * Layout responsivo utilizando `flexbox` e `grid`
