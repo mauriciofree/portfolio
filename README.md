@@ -116,7 +116,6 @@ Este projeto demonstra experiência prática nas seguintes tecnologias:
 
 Este projeto relaciona projetos ao qual já trabalhei ao longo da carreira, bem como um link para um jogo divertido que foi desenvolvido durante o curso de Front-end da SCTEC.
 
-
 ---
 
 ## ⚙️ Boas Práticas Aplicadas
