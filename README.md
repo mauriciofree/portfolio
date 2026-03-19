@@ -18,9 +18,8 @@ O projeto segue uma estrutura simples e eficiente, baseada na separação de res
 ```bash id="u2n9x1"
 portfolio/
 │── index.html
-│── css/
-│── js/
-│── imagens/
+│── assets/
+│── assets/imagens/
 ```
 
 * **HTML** responsável pela estrutura semântica
@@ -38,19 +37,7 @@ O CSS foi desenvolvido com foco em:
 * Layout responsivo utilizando `flexbox` e `grid`
 * Uso de unidades relativas (`vw`, `vh`, `%`) para adaptação de tela
 * Componentização visual (cards, botões, tags)
-* Uso de pseudo-elementos (`::before`) para overlays e efeitos visuais
 * Aplicação de `hover effects` para melhorar a experiência do usuário
-
-Exemplo de overlay aplicado em imagens:
-
-```css id="x81p2a"
-.hero::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.6);
-}
-```
 
 ---
 
@@ -62,7 +49,6 @@ O JavaScript foi utilizado de forma leve e objetiva, focando em:
 * Melhorias na experiência do usuário
 * Preparação para futuras integrações dinâmicas
 
-O projeto foi estruturado para permitir evolução futura para frameworks ou integração com APIs.
 
 ---
 
@@ -87,16 +73,6 @@ A responsividade foi tratada como prioridade no projeto:
 * Uso de `media queries` para adaptação em diferentes telas
 * Layout fluido com `grid` e `flexbox`
 * Ajuste de elementos para mobile (reorganização de conteúdo)
-
-Exemplo:
-
-```css id="k29d8f"
-@media (max-width: 768px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-```
 
 ---
 
@@ -134,23 +110,12 @@ Este projeto demonstra experiência prática nas seguintes tecnologias:
 * Manipulação de elementos
 * Estrutura base para interatividade
 
-### PHP, C#, Delphi/Pascal (Experiência complementar)
+---
 
-Embora não utilizados diretamente neste projeto frontend, fazem parte do meu stack e são aplicados em:
+🧩 Projetos
 
-* Desenvolvimento backend
-* Integração de sistemas
-* Aplicações corporativas
-* Sistemas relacionados à nota fiscal eletrônica (NF-e/NFC-e)
+Este projeto relaciona projetos ao qual já trabalhei ao longo da carreira, bem como um link para um jogo divertido que foi desenvolvido durante o curoso de Front-end da SCTEC.
 
-### Node.js e Laravel
-
-Utilizados em projetos paralelos para:
-
-* Criação de APIs
-* Backend estruturado
-* Integração com banco de dados
-* Sistemas web completos
 
 ---
 
@@ -166,29 +131,17 @@ Durante o desenvolvimento, foram aplicadas práticas importantes:
 
 ---
 
-## 📌 Possíveis Evoluções Técnicas
-
-O projeto foi estruturado para permitir evoluções como:
-
-* Integração com backend (API REST)
-* Implementação de framework frontend
-* Sistema de gerenciamento de conteúdo
-* Autenticação de usuários
-* Consumo de APIs externas
-
----
-
 ## 📞 Contato
 
-* 📧 Email: [seuemail@email.com](mailto:seuemail@email.com)
-* 📱 WhatsApp: https://wa.me/5541999999999
-* 👍 Facebook: https://facebook.com/seuperfil
+* 📧 Email: [mauricio@freeline.inf.br](mailto:mauricio@freeline.inf.br)
+* 📱 WhatsApp: https://wa.me/5547999235542
+* 👍 Facebook: https://facebook.com/mauricioroberto.moller
 
 ---
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Maurício, com foco em desenvolvimento web e integração de sistemas, especialmente em soluções voltadas à automação e comunicação com serviços fiscais como NF-e e NFC-e.
+Desenvolvido por Maurício Roberto Moller, com foco em desenvolvimento web e integração de sistemas, especialmente em soluções voltadas à automação e comunicação com serviços fiscais como NF-e e NFC-e.
 
 ---
 
