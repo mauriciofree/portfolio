@@ -40,7 +40,7 @@ Essa abordagem facilita manutenção, escalabilidade e reutilização de código
 
 ## 🎨 Estratégia de Design
 
-O design do portfólio foi construído com foco em simplicidade e clareza visual. A paleta de cores utiliza tons escuros como base, o que favorece o contraste com textos claros e melhora a legibilidade. Esse tipo de abordagem também é amplamente utilizado em interfaces modernas voltadas para desenvolvedores.
+O design do portfólio foi construído com foco em simplicidade e clareza visual. A paleta de cores utiliza tons claros como base, o que favorece o contraste com textos escuros e melhora a legibilidade. Esse tipo de abordagem também é amplamente utilizado em interfaces modernas voltadas para desenvolvedores.
 
 Foram aplicados efeitos sutis de hover, sombras e transições CSS para proporcionar uma experiência mais interativa ao usuário. Além disso, elementos como cards e botões foram estilizados de forma consistente, criando uma identidade visual uniforme em todo o projeto.
 
